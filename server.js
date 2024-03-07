@@ -1,4 +1,6 @@
+// import express js
 const express = require('express');
+// import routes
 const routes = require('./routes');
 // import sequelize connection
 
