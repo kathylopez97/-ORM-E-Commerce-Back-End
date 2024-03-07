@@ -39,5 +39,5 @@ Category.init(
     modelName: "category",
   }
 );
-
+//it defines the object that is created when a file is imported using require Category
 module.exports = Category;

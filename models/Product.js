@@ -50,5 +50,5 @@ Product.init(
     modelName: "product",
   }
 );
-
+ //it defines the object that is created when a file is imported using require Product
 module.exports = Product;

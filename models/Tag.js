@@ -25,5 +25,6 @@ Tag.init(
     modelName: "tag",
   }
 );
+ //it defines the object that is created when a file is imported using require Tag
 
 module.exports = Tag;

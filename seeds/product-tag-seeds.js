@@ -1,3 +1,4 @@
+// import product tags from models
 const { ProductTag } = require('../models');
 
 const productTagData = [
@@ -52,5 +53,5 @@ const productTagData = [
 ];
 
 const seedProductTags = () => ProductTag.bulkCreate(productTagData);
-
+// it defines the object that is created when a file is imported using require Seed Product Tags
 module.exports = seedProductTags;

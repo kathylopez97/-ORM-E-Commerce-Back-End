@@ -1,3 +1,4 @@
+// import category from models
 const { Category } = require('../models');
 
 const categoryData = [
@@ -19,5 +20,5 @@ const categoryData = [
 ];
 
 const seedCategories = () => Category.bulkCreate(categoryData);
-
+//it defines the object that is created when a file is imported using require seedCategories
 module.exports = seedCategories;

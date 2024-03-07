@@ -1,3 +1,4 @@
+// import seeds from each category
 const seedCategories = require('./category-seeds');
 const seedProducts = require('./product-seeds');
 const seedTags = require('./tag-seeds');
@@ -22,5 +23,5 @@ const seedAll = async () => {
 
   process.exit(0);
 };
-
+// it defines the object that is created when a file is imported using require seedAll
 seedAll();

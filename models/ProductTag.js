@@ -41,4 +41,5 @@ ProductTag.init(
   }
 );
 
+//it defines the object that is created when a file is imported using require Product tag
 module.exports = ProductTag;

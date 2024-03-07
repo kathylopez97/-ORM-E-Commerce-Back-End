@@ -1,5 +1,6 @@
+// import tags to modeles
 const { Tag } = require('../models');
-
+// tag database 
 const tagData = [
   {
     tag_name: 'rock music',
@@ -28,5 +29,5 @@ const tagData = [
 ];
 
 const seedTags = () => Tag.bulkCreate(tagData);
-
+// it defines the object that is created when a file is imported using require seedTags
 module.exports = seedTags;

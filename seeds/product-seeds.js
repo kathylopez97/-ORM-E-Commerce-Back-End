@@ -1,5 +1,6 @@
+// import products from models
 const { Product } = require('../models');
-
+// call products to database
 const productData = [
   {
     product_name: 'Plain T-Shirt',
@@ -34,5 +35,5 @@ const productData = [
 ];
 
 const seedProducts = () => Product.bulkCreate(productData);
-
+// it defines the object that is created when a file is imported using require seed Products
 module.exports = seedProducts;
