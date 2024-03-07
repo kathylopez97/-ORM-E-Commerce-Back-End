@@ -41,7 +41,8 @@ THEN I am able to successfully create, update, and delete data in my database
 
   
 ## Description
-Overview of E-Commerce-Back-End is to use MYSQL , Express.js and Sequelize to store data using dotenv packages. Thus, creating a a backend e-commerce to follow the latest technologies in a website. 
+Overview of E-Commerce-Back-End is to use MYSQL , Express.js and Sequelize to store data using dotenv packages. 
+Thus, creating a a backend e-commerce to follow the latest technologies in a website. 
 ## Links
 - [The URL of Github Repository](https://github.com/kathylopez97/ORM-E-Commerce-Back-End)
 - [Youtube Video Walkthrough](https://www.youtube.com/watch?v=I0INVz0rd0M)
@@ -85,7 +86,7 @@ Instructions on how to use the ORM -E-Commerce-Back-End
    ```
 6. Use Insomina 
 ## Usage 
-
+![ORM Backend screenshot](images/ORM.png)
 ## Credits 
 - Youtube: [Youtube](https://youtube.com)
 - Visual Studio Code: [VS Code](https://code.visualstudio.com/)
